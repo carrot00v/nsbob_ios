@@ -1,0 +1,20 @@
+name: today_menu
+description: 자동으로 업데이트되는 구내식당 식단표 앱
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  html: ^0.15.4
+  google_mlkit_text_recognition: ^0.10.0
+  path_provider: ^2.0.15
+  pdfx: ^2.3.0
+  charset_converter: ^2.0.1
+
+flutter:
+  uses-material-design: true
