@@ -1,0 +1,14 @@
+# Flutter and Dart
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# MacOS
+.DS_Store
+
+# Android & iOS build folders
+android/**/build/
+ios/**/build/
